@@ -1,4 +1,7 @@
 package _02_smurf;
+
+import org.omg.Messaging.SyncScopeHelper;
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
@@ -27,19 +30,34 @@ public class Smurf {
 	public void eat() {
 		System.out.println(name + " Smurf is eating Smurfberries.");
 	}
+	public void KO() {
+		System.out.println(name + " Is beating HULK HOGAN UP!!! .");
+	}
+	public void Home() {
+		System.out.println(name + " Lives in PIPERSSS PITTT .");
+	}
 
 	// Papa Smurf wears a red hat, all the others are white.
 	public String getHatColor() {
 		// 3. Fill in this method
-		return "";
+		if (name.equals("Smurft==papa")) {
+
+			return name + " WeARS A REd hat";
+
+		} else {
+			return name + " wears white hat";
+		}
 	}
 
 	// Smurfette is the only female Smurf.
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
-		return "";
+		if (name.equals (" I can fly")) {
+		return name + " is a Girl";
+		}else{
+			return name + " is a Boy";
+		}
+		
 	}
 
 }
-
-
