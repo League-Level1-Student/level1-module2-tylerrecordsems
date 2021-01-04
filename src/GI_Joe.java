@@ -79,6 +79,11 @@ frame.setTitle("Which GI Joe would you like to be? YO JOE!!!");
 		}if (buttonPressed == fourButton) {
 			x.equals("Spirit");
 		}
-		
+	//	void reset() {
+	//		frame.dispose();
+	//		frame = new JFrame();
+	//		panel = new Panel();
+	//		frame.add(panel);
+	//	}
 	}
 }
